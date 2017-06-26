@@ -1,0 +1,106 @@
+.martop {
+    margin-top: 50px;
+}
+
+
+/*.carousel-inner .item img {
+            width: 100%;
+            height: 20rem;
+        }*/
+
+.baseSectionTitle {
+    font-size: 20px;
+    color: #CC3434;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+    border-top: 2px solid #CC3434;
+    border-bottom: 2px solid #CC3434;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.tw400 {
+    max-width: 400px;
+    width: 90%;
+}
+
+.col-md-6 {
+    position: relative;
+}
+
+.textWord {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    z-index: 1;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #fff;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 2px #999;
+}
+
+.baseSectionTitleRed {
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    background-color: #CC3434;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: 0px auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.baseword {
+    background-color: #f2f2f2;
+}
+
+
+/*轮播图*/
+
+.pic-small {
+    width: 74%;
+    height: width/1.5;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid #fff;
+}
+
+.textTop {
+    color: #fff;
+    text-align: center;
+}
+
+.textTop img {
+    width: 18%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+
+/* */
+
+.textSmall {
+    font-size: 16px;
+}
+
+.textTitle {
+    color: #CC3434;
+    font-size: 18px;
+}
+
+.tupic a {
+    text-decoration: none;
+}

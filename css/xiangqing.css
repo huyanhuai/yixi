@@ -1,0 +1,38 @@
+.toptu {
+    background: url('http://static.yixi.tv/background/2017-04-28/19425e740687f085b1c5dc4f31923dfc.1536x1000.jpg') no-repeat;
+    width: 100%;
+    height: 350px;
+    max-width: 1240px;
+    margin: 0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.Title1 {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    border-left: 4px solid #cc3434;
+    padding-left: 10px;
+}
+
+.Title2 {
+    font-size: 16px;
+}
+
+.Titlebox {
+    background-color: #f2f2f2;
+}
+
+.Titlebox>p {
+    padding: 10px 0;
+}
+
+.textTitle {
+    color: #CC3434;
+    font-size: 18px;
+}

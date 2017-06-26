@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+        
+        header {
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            height: 50px;
+            width: 100%;
+            text-align: right;
+            background: -webkit-linear-gradient(top, rgba(0, 0, 0, .4), transparent);
+        }
+        
+        .logo {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            height: 30px;
+            width: 100px;
+            background-image: url(https://s1.tuchong.com/content-image/201611/b11a3466c73176fc90cdea2ba0b16154.png);
+            background-size: 100% 100%;
+        }
+        
+        .itema {
+            display: inline-block;
+            width: 54px;
+            height: 27px;
+            margin-top: 12px;
+            line-height: 27px;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+        }
+        
+        .top-photo {
+            position: relative;
+            width: 100%;
+            padding-top: 100%;
+            background-image: url(https://photo.tuchong.com/461036/f/31613077.jpg);
+            background-size: 100% 100%;
+            background-position: center;
+            /*background-repeat: no-repeat;*/
+        }
+        
+        .top-photo .top-wrapper {
+            position: absolute;
+            top: 40%;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            opacity: 1;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+        
+        .top-photo .top-wrapper .top-sloagn {
+            margin: 0 auto;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 0 1px 2px #000;
+        }
+        
+        .top-photo .top-wrapper .top-down {
+            display: block;
+            width: 106px;
+            height: 36px;
+            margin: 28px auto 0;
+            border-radius: 3px;
+            color: #fff;
+            text-align: center;
+            line-height: 36px;
+            font-size: 14px;
+            background-color: #0090e3;
+            text-decoration: none;
+        }
+        
+        .top-photo .guide-layer {
+            position: absolute;
+            bottom: 0;
+            /*display: -webkit-box;
+            display: -webkit-flex;*/
+            display: flex;
+            /*-webkit-flex-flow: row nowrap;*/
+            flex-flow: row nowrap;
+            -webkit-box-pack: center;
+            /*-webkit-justify-content: center;*/
+            justify-content: center;
+            width: 100%;
+            height: 80px;
+            line-height: 80px;
+            overflow: hidden;
+            vertical-align: middle;
+            background: #000;
+            opacity: .7;
+        }
+        
+        .top-photo .guide-layer .icon {
+            margin-top: 31px;
+            width: 100px;
+            height: 17px;
+            background-image: url(https://s1.tuchong.com/content-image/201706/fa0931261fc635e8da225c18bc23b3b7.png);
+            background-size: 100% 100%;
+        }
+        
+        .top-photo .guide-layer .title {
+            padding: 0 15px;
+            font-size: 15px;
+            color: #c99a03;
+            display: inline-block;
+        }
+        
+        .top-photo .guide-layer .entry {
+            font-size: 12px;
+            color: #fff;
+        }
+        
+        h2 {
+            padding: 0 10px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .section-word {
+            padding: 0 10px;
+            text-align: center;
+            font-size: 12px;
+        }
+        /*.posts-list li {
+            display: inline-block;
+            margin-top: 5px;
+            margin-left: 5px;
+            background-size: cover;
+            background-position: center;
+        }*/
+        
+        .col-md-2 {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="background-color: rgba(34, 34, 34, 0);">
+        <a href="" class="logo"></a>
+        <a href="" class="itema">首页</a>
+        <a href="" class="itema">活动</a>
+    </header>
+    <div class="content">
+        <section class="top-photo">
+            <div class="top-wrapper">
+                <h1 class="top-sloagn">最好的摄影师都在这</h1>
+                <a class="top-down">下载APP</a>
+            </div>
+            <div class="guide-layer">
+                <a class="icon"></a>
+                <span class="title">高清正版图片下载</span>
+                <a class="entry" href="">点击进入 > </a>
+            </div>
+        </section>
+        <section class="hot-posts">
+            <h2>已经有超过百万的摄影爱好者入驻了图虫……</h2>
+            <p class="section-word">在这里，发现基于共同兴趣的同好；鼓励原创和分享精神；除了美好的摄影和技能，我们更在意影像背后价值观的认同。</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6 col-md-2">
+                        <img src="https://photo.tuchong.com/1122241/g/26433288.webp" class="img-responsive" alt="Responsive image">
+                        <!--<ul class="posts-list">
+                            <li class="alist" style="width: 170px; height: 180px; background-image: url(https://photo.tuchong.com/535193/g/30832529.webp)"></li>
+                            <li class="alist" style="width: 180px; height: 180px; background-image: url(https://photo.tuchong.com/1122241/g/26433288.webp)"></li>
+                            <li class="alist" style="width: 180px; height: 180px; background-image: url(https://photo.tuchong.com/535193/g/30832529.webp)"></li>
+                            <li class="alist" style="width: 180px; height: 180px; background-image: url(https://photo.tuchong.com/1122241/g/26433288.webp)"></li>
+                            <li class="alist" style="width: 180px; height: 180px; background-image: url(https://photo.tuchong.com/535193/g/30832529.webp)"></li>
+                        </ul>-->
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <img src="https://photo.tuchong.com/535193/g/30832529.webp" class="img-responsive" alt="Responsive image">
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <img src="https://photo.tuchong.com/1122241/g/26433288.webp" class="img-responsive" alt="Responsive image">
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <img src="https://photo.tuchong.com/535193/g/30832529.webp" class="img-responsive" alt="Responsive image">
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <img src="https://photo.tuchong.com/1122241/g/26433288.webp" class="img-responsive" alt="Responsive image">
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <img src="https://photo.tuchong.com/535193/g/30832529.webp" class="img-responsive" alt="Responsive image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hot-events">
+            <h2>全年超过百万奖金的活动和大赛，好照片不再寂寞……</h2>
+            <p class="section-word">中国最活跃的摄影赛事平台，层出不穷的活动创意，专业的摄影导师群体，一起帮助你成为中国最好的摄影师。</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4"><img src="https://photo.tuchong.com/535193/g/30832529.webp" class="center-block" alt="Responsive image">
+                        <h5 style="font-weight: bold;">图虫开屏等你来占</h5>
+                    </div>
+                    <div class="col-md-4"><img src="https://photo.tuchong.com/535193/g/30832529.webp" class="center-block" alt="Responsive image">111</div>
+                    <div class="col-md-4"><img src="https://photo.tuchong.com/535193/g/30832529.webp" class="center-block" alt="Responsive image">111</div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+
+<script>
+    var html = "";
+    //     $.ajax({
+    //         type: "get",
+    //         url: "https://api.tuchong.com/discover-app?os_api=23&device_type=MI&device_platform=android&ssmix=a&manifest_version_code=232&dpi=440&abflag=0&uuid=326132612301652&version_code=232&app_name=tuchong&version_name=2.3.2&openudid=4352d5fadf543531&resolution=1280*1000&os_version=5.8.1&ac=wifi&aid=0",
+    //         // data: "",
+    //         dataType: "jsonp",
+    //         success: function(data) {
+    //             consloe.log(data);
+    //             // var photo = data.hotEvents[0];
+    //             // $.each(photo, function(index, vl) {
+    //             //     var goods = vl.images;
+    //             //     html += '<div class="item-inner"><div class="item-title"> ' + '<img src=' + goods + ' alt="">' + '</div></div>';
+    //             // })
+    //             // $('.col-md-4').append(html);
+    //         }
+    //     });
+    $.ajax({
+        type: "get",
+        url: "api/yixi.php",
+        dataType: "json",
+        success: function(response) {
+            console.log(response);
+        }
+    });
+</script>
+
+</html>

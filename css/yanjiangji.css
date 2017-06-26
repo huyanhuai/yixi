@@ -1,0 +1,74 @@
+ .toptu {
+     background: url('http://static.yixi.tv/background/2015-02-13/b2f29f86c15fc6828848737d10926998.1240x350.jpg') no-repeat;
+     width: 100%;
+     height: 350px;
+     max-width: 1240px;
+     margin: 0 auto;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     overflow: hidden;
+     margin-top: 50px;
+ }
+ 
+ .zhuanti {
+     line-height: 5rem;
+     border-bottom: 1px solid #999;
+     padding-bottom: 10px;
+ }
+ 
+ .textTitle {
+     color: #CC3434;
+     font-size: 18px;
+ }
+ 
+ .tupic a {
+     text-decoration: none;
+ }
+ 
+ .spic {
+     position: relative;
+ }
+ 
+ .fenye nav {
+     padding: 30px 0;
+     position: relative;
+ }
+ 
+ .pagination {
+     position: absolute;
+     right: 0;
+     top: 0;
+ }
+ 
+ .pic-small {
+     width: 50%;
+     height: 50%;
+     text-align: center;
+     position: absolute;
+     top: 20%;
+     left: 25%;
+     background-color: rgba(204, 52, 52, 0.9);
+     border: 2px solid #fff;
+     display: none;
+ }
+ 
+ .tupic a:hover .pic-small {
+     display: block;
+ }
+ 
+ .textTop1 {
+     padding-top: 5%;
+ }
+ 
+ .textTop {
+     color: #fff;
+     text-align: center;
+ }
+ 
+ .textTop img {
+     width: 18%;
+     border-radius: 50%;
+     border: 2px solid #fff;
+ }

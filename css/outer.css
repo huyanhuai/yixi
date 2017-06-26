@@ -1,0 +1,130 @@
+body {
+    min-width: 320px;
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+
+/*导航*/
+
+.navbar-default {
+    background-color: #444;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.25);
+}
+
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: skyblue;
+    line-height: 35px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    height: 60px;
+    line-height: 35px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: skyblue;
+}
+
+.navbar-default .navbar-header>a:hover {
+    color: skyblue;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #ddd;
+}
+
+
+/*底部*/
+
+.container-fluid {
+    background-color: #666;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.Bottom {
+    padding-top: 20px;
+}
+
+.newtalk {
+    height: 24px;
+    line-height: 24px;
+    padding-left: 30px;
+    background: url('http://yixi.tv/images/common_foot@2x.png') no-repeat;
+    background-size: 24px 24px;
+}
+
+.line {
+    width: 100%;
+    margin-top: 5px;
+    border-top: 1px solid #999;
+    height: 10px;
+    clear: both;
+}
+
+.talkbox {
+    float: left;
+    max-width: 36px;
+    width: 9%;
+}
+
+.talk {
+    width: 100%;
+    max-width: 36px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.talk img {
+    width: 100%;
+}
+
+.wordbox {
+    float: left;
+    width: 91%;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+.footbox {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+
+/*返回顶部*/
+
+.backTop {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+    line-height: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+.backTop:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
